@@ -1,1 +1,25 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+	--font-main: 'Inter';
+	--font-accent: 'PressStart2P';
+	--heading-weight: 785;
+	--text-weight: 400;
+	--headers-weight: 785;
+	--bg-primary: #fff;
+	--text-primary: #000;
+	--text-stroke: #fff;
+	--border-primary: #000;
+	--modal-bg: #000;
+
+	--heart-outline: #000;
+	--heart-fill: #ff0000;
+
+	--page-bg: repeating-linear-gradient(
+			#d3d3d3,
+			#d3d3d3 2px,
+			transparent 2px 4px
+		),
+		repeating-linear-gradient(90deg, #d3d3d3, #d3d3d3 2px, transparent 2px 4px),
+		linear-gradient(#e7e7e7, #1a1a1a);
+}
