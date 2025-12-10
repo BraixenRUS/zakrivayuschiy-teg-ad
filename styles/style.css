@@ -234,6 +234,13 @@
   filter: blur(3px) hue-rotate(70deg) sepia(50%);
 }
 
+@supports (text-stroke: 1px var(--text-stroke)) or (-webkit-text-stroke: 1px var(--text-stroke)) {
+  .card__text {
+    text-stroke: 1px var(--text-stroke); /* Стандартное свойство */
+    -webkit-text-stroke: 1px var(--text-stroke); /* Для WebKit-браузеров */
+  }
+}
+
 @media (max-width: 500px) {
   .header h1 {
     font-size: 49px;
