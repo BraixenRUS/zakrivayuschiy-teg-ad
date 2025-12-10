@@ -236,8 +236,8 @@
 
 @supports (text-stroke: 1px var(--text-stroke)) or (-webkit-text-stroke: 1px var(--text-stroke)) {
   .card__text {
-    text-stroke: 1px var(--text-stroke); /* Стандартное свойство */
-    -webkit-text-stroke: 1px var(--text-stroke); /* Для WebKit-браузеров */
+    text-stroke: 1px var(--text-stroke); 
+    -webkit-text-stroke: 1px var(--text-stroke); 
   }
 }
 
